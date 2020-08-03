@@ -8,14 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ThisIsMyMainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
-        print("Another test")
-        print("This is another branch")
+        print("test")
     }
 
 }
