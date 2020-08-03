@@ -8,11 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("test")
+        view.backgroundColor = .cyan
+        
+        title = "Develop"
     }
 
 }
